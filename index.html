@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Penguin Fashion</title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/fontawesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
@@ -13,7 +15,7 @@
 </head>
 
 <body>
-  <header class="container">
+  <header class="container" id="penguin-home">
     <div class="d-flex bd-highlight pt-4 pb-3">
       <div class="p-2 flex-grow-1 bd-highlight">
         <a class="navbar-brand" href="#"><img src="icons/Group 33072.png" class="penguin-logo" alt="logo"></a>
@@ -194,14 +196,23 @@
 
 
 
-    <section style="height: 300px;" id="subscribe"
-      class="bg-primary mt-5 d-flex justify-content-center align-items-center">
-      <div>
-        <h1>LER'S STAY IN TOUCH</h1>
-        <h5>Get updates on sales, specials and more</h5>
-        <input type="text" placeholder="Enter your e-mail adress"><br>
-        <button class="btn btn-success text-white mt-2 btn-color btn-lg">SUBMIT</button>
+    <section style="height: 300px;" id="subscribe" class="rounded-3 bg-light mt-5 d-flex align-items-center justify-content-center align-items-center">
+      <div style="text-align: center;">
+        <h1 class="m-0 penguin-tfc1">LER'S STAY IN TOUCH</h1>
+        <h3>Get updates on sales and specials offers</h3>
+        <input type="text" placeholder="Enter your e-mail adress"> <br>
+        <button class="btn btn-success text-white mt-2 btn-color">SUBMIT</button>
+        <div class="penguin-social-icon">
+          <ul class="container">
+            <li class="m-3"><a href="#penguin-home"><i class="fas fa-home"></i></a></li>
+            <li class="m-3"><a href=""><i class="fab fa-facebook-f"></i></a></li>
+            <li class="m-3"><a href=""><i class="fab fa-twitter"></i></a></li>
+            <li class="m-3"><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+            <li class="m-3"><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+          </ul>
+        </div>
       </div>
+      
     </section>
   </main>
 

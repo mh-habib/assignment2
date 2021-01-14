@@ -40,3 +40,8 @@ h4{
     border-radius: 15px;
     padding:2.5rem;
 }
+.penguin-social-icon ul li{
+    float: left;
+    list-style: none;
+    font-size: 2rem;
+}
