@@ -2,7 +2,7 @@
     .penguin-top{
     display: block;
     }
-    .dp-test{
+    .dp-test, h3{
         display: block;
         text-align : center;
     }
