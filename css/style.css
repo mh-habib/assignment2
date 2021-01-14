@@ -1,6 +1,9 @@
 h1, h3{
 font-family: 'Bebas Neue', cursive;
 }
+.bg-top{
+    background-color: #fffbf0;
+}
 .penguin-top-font1{
     font-size: 5rem;
 }
