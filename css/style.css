@@ -1,0 +1,42 @@
+h1, h3{
+font-family: 'Bebas Neue', cursive;
+}
+.penguin-top-font1{
+    font-size: 5rem;
+}
+.penguin-tfc1{
+    color:#fabe4c;
+}
+.btn-color{
+    background-color: #a4bc46;
+    border: 1px solid #a4bc46;
+}
+h4{
+    color:#fabe4c;
+    font-weight: 800;
+}
+.penguin-tfc2, h3, h5{
+    color:#3e4266;
+}
+.penguin-logo{
+    width: 200px;
+}
+.penguin-buy-icon{
+    width: 1.3rem;
+}
+.penguin-icon img{
+    width: 5rem;
+}
+.penguin-card{
+    border: 0;
+}
+.penguin-card-footer{
+    background-color: white;
+    border: 0;
+}
+.penguin-card > img{
+    background-color: rgb(245, 236, 236);
+    height: 25rem;
+    border-radius: 15px;
+    padding:2.5rem;
+}
