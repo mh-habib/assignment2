@@ -6,6 +6,9 @@
         display: block;
         text-align : center;
     }
+    .penguin-top-font1{
+        font-size: 3rem;
+    }
 }
 @media (min-width:992px){
     .penguin-d-flex{

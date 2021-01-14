@@ -36,9 +36,11 @@ h4{
 }
 .penguin-card > img{
     background-color: rgb(245, 236, 236);
-    height: 25rem;
+    height: 20rem;
+    width: 19rem;
     border-radius: 15px;
     padding:2.5rem;
+    margin: 1.5rem auto;
 }
 .penguin-social-icon ul li{
     float: left;
